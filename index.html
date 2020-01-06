@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <button onclick="argue()">Button 1</button>
-    <button onclick="argueMore()">Button 2</button>
-    <p id="argue_text"></p>
+    <div>
+        <button onclick="argue()">Button 1</button>
+        <button onclick="argueMore()">Button 2</button>
+        <p id="argue_text"></p>
+    </div>
 
     <div onmouseover="dontHover()">
         <h1>Don't hover over me!</h1>
@@ -26,7 +29,10 @@
             <input id="password" type="password"></input>
         </div>
 
-        <button id="submit" >Submit</button>
+        <div>
+            <button id="submit" >Submit</button>
+        </div>
+        
     </form>
 
     <h1 id="formStatus" ></h1>
