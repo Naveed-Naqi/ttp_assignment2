@@ -4,7 +4,33 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    
+    <button onclick="argue()">Button 1</button>
+    <button onclick="argueMore()">Button 2</button>
+    <p id="argue_text"></p>
+
+    <div onmouseover="dontHover()">
+        <h1>Don't hover over me!</h1>
+    </div>
+
+    <form >
+        <div>
+            <label>Username</label>
+            <input type="text"></input>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="text"></input>
+        </div>
+        <div>
+            <label>Password</label>
+            <input id="password" type="password"></input>
+        </div>
+
+        <button id="submit" >Submit</button>
+    </form>
+
+    <h1 id="formStatus" ></h1>
 </body>
+
 <script src="script.js" ></script>
 </html>
